@@ -1,0 +1,35 @@
+@keyframes bgcolor {
+  0% {
+      background-color: #45a3e5
+  }
+
+  30% {
+      background-color: #66bf39
+  }
+
+  60% {
+      background-color: #eb670f
+  }
+
+  90% {
+      background-color: #f35
+  }
+
+  100% {
+      background-color: #864cbf
+  }
+}
+
+body {
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 0.5s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  padding: 0;
+  margin:0;
+  overflow: hidden;
+}
+
+#canvas{
+  background-color: rgba(255, 250, 250, 0);
+}
